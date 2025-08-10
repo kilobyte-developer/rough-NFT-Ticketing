@@ -1,0 +1,33 @@
+:root {
+  --brand-primary-dark: #0f1724;
+  --brand-accent-start: #6ee7b7;
+  --brand-accent-end: #60a5fa;
+  --brand-accent-solid: #2563eb;
+  --brand-muted: #94a3b8;
+  --brand-bg: #f8fafc;
+  --brand-card: #ffffff;
+  --brand-danger: #ef4444;
+  --brand-success: #10b981;
+
+  --radius-card: 12px;
+  --radius-btn: 8px;
+
+  --shadow-subtle: 0 6px 18px rgba(2, 6, 23, 0.06);
+  --shadow-lifted: 0 14px 40px rgba(2, 6, 23, 0.08);
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-primary-dark);
+}
+
+.btn-primary {
+  background: var(--brand-accent-solid);
+  border-radius: var(--radius-btn);
+}
+
+.card {
+  background: var(--brand-card);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-subtle);
+}

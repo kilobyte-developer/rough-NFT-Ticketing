@@ -1,0 +1,4 @@
+1.ONBOARDING
+    |
+    |__ a.Privy
+    |__ b.Magic Link
